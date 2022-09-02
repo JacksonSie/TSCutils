@@ -3,54 +3,32 @@
  #>
 
 $timeoutSec = 10 #祇癬 request 程单丁(sec)
-$default_account = "xxxx" #sso 祅箇砞眀腹
-$default_pwd = 'yyyy'
-$default_adaccount="zzzz"
+$default_account = "ooo" #sso 祅箇砞眀腹
+$default_pwd = 'ooo'
+$default_adaccount="ooo"
 #祅眀盞┮舱
-$舱 = @{depno = '01'; divino = '02' }
+$舱 = @{depno = '01'; divino = '69' }
 
-$deptList = @{  #场
-    "A" = "A-A";
-    "B" = "B-B";
-    "C" = "C-C";
-    "D" = "D-D";
-    "E" = "E-E";
-    "F" = "F-F";
-    "G" = "G-G";
-    "H" = "H-H";
-    "I" = "I-I";
-    "J" = "J-J";
-    "K" = "K-K";
-    "L" = "L-L";
-    "M" = "M-M";
-    "N" = "N-N";
-    "O" = "O-O";
-    "P" = "P-P";
-    "Q" = "Q-Q";
-    "R" = "R-R";
-    "S" = "S-S";
-    "T" = "T-T";
-    "U" = "U-U";
-    "V" = "V-V";
-    "W" = "W-W";
+$deptList = @{  #场睲虫场
+    "01" = "01-oo矪";
 }
 
-$crawler_csv = "email_$(Get-Date -UFormat '%Y%m%dT%H%M%S').csv" #ъemail竚
+$crawler_csv = "ooo\email\そemail_$(Get-Date -UFormat '%Y%m%dT%H%M%S').csv" #ъemail竚
 
 
 
-$RSarg = "Z1^*^╰参^*^http://oooo2.com.tw/aaa/Index.aspx"
-$PEarg = "Z2^*^╰参^*^http://oooo3.com.tw/aaa/AppHome.aspx"
+$RSarg = "RS^*^ooo╰参^*^http://ooo.tw/ooo/Index.aspx"
+$PEarg = "PE^*^ooo╰参^*^http://ooo/App/AppHome.aspx"
 
-$aes_key_source = "aaa"
+$aes_key_source = "ooo"
 
 
 
 #临戈畐闽把计
-$global:remote_db = 'oooo1.com.tw'
-$global:local_db = 'oooo3.com.tw'
-$global:remote_disk_physical = "db.bak_rotatable\"
-$global:remote_disk_samba = "\\oooo1.com.tw\b.bak_rotatable\"
+$global:remote_db = 'ooo'
+$global:local_db = 'localhost'
+$global:remote_disk_physical = "ooo\db.bak_rotatable\"
+$global:remote_disk_samba = "\\ooo\db.bak_rotatable\"
 $global:local_disk_physical = "E:\test\db.bak_rotatable\"
 $global:backup_filename = "{0}.{1}.bak"
-$global:backup_list = @("A", "B", "C", "D", "E", "F")
+$global:backup_list = @("oooDB")
