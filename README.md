@@ -21,3 +21,10 @@
 
 ## lib/settings.ps1
 設定值
+
+#meeting.ps1
+獲取全近期會議名稱
+
+#rollbackpwd.ps1
+因應密碼政策而生，改變n次密碼後，再將密碼變更回原先設定值
+rollback 5 #變更5次密碼後，第6次改回原密碼
